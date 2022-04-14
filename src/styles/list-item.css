@@ -1,0 +1,25 @@
+.list-item{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #d1d3d4;
+}
+.list-item input{
+  cursor: pointer;
+}
+.list-item input:checked{
+   accent-color: #835afd;
+}
+.list-item label{
+    margin-left:10px;
+    font-size:15px;
+}
+.list-item label.true{
+    text-decoration: line-through;
+}
+.list-item .delete-button{
+   cursor: pointer;
+   font-size:20px;
+   color:#835afd;
+}
